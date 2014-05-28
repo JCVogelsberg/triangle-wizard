@@ -1,0 +1,40 @@
+#result {
+  display: none;
+}
+
+body {
+  background: black url(cool_triangle.jpg) top left no-repeat;
+  width: 50%
+}
+
+
+
+@font-face {
+  font-family: "BernalHeights";
+  src: url("BernalHeights.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "jamaistevie";
+  src: url("jamaistevie.ttf") format("truetype");
+}
+
+
+h1 {
+  font-family: "jamaistevie";
+  font-size: 108px;
+  font-style: italic;
+}
+
+/*.col-md-3 {
+  font-family: "BernalHeights";
+  font-size: 24px;
+  text-decoration: underline;
+}*/
+
+.btn {
+  font-family: "courier-new";
+  font-size: 36px;
+  font-style: italic;
+
+}
